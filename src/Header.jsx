@@ -8,26 +8,36 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import ConnectWalletButton from "./ConnectWalletButton";
 
 function Header() {
 
-    const [Account, setAccount] = React.useState(null);
-
-    function updateAccount(){
-        window.ethereum.request({method: "eth_requestAccounts"})
-        .then(result => {
-            setAccount(result[0]);
-        })
+    const [connectButtonText, setConnectButtonText] = React.useState("Connect Wallet");
+    const [errorMessage, setErrorMessage] = React.useState(null);
+    const [defaultAccount, setDefaultAccount] = React.useState(null);
+  
+    function connectWalletHandler(){
+        if(window.ethereum){
+            window.ethereum.request({method: "eth_requestAccounts"})
+            .then(result => {
+                accountChangedHandler(result[0]);
+                setConnectButtonText("Wallet Connected")
+            })
+        } else {
+            setErrorMessage("Please Install MetaMask.");
+            console.log(errorMessage);
+        }
+    }
+  
+    function accountChangedHandler(newAccount){
+        setDefaultAccount(newAccount);
     }
 
     return(
         <header>
             <Link to="/" > <img src={require("./img/Logo.png")} alt="logo" /> </Link>
             <div>
-                <p>{Account}</p>
-                <button onClick={updateAccount} style={{backgroundColor:"black", padding:"0px", borderRadius:"8px", border:"none"}}><ConnectWalletButton /></button>
-                {/* <button onClick={updateAccount} /> */}
+                <p>{defaultAccount}</p>
+                <button className="ConnectWallet" onClick={connectWalletHandler} > {connectButtonText} </button>
             </div>
         </header>
     );

@@ -1,7 +1,6 @@
 import React from "react";
 import MainBg from "./img/main-bg.png";
 import SocialBundle from "./Social-Bundle";
-import ConnectWalletButton from "./ConnectWalletButton";
 import {
   // eslint-disable-next-line
   BrowserRouter as Router,
