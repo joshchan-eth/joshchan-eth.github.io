@@ -22,10 +22,11 @@ import {
 } from "react-router-dom";
 
 function App() {
+  
   return (
     <Router>
       <div>
-        <Header />
+        {/* <Header /> */}
         <Main />
         <Concept />
         <ParallelStories />

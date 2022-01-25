@@ -163,6 +163,15 @@ footer p {
     margin: 0%;
     background-color: black;
     padding: 100px 40px 40px 40px;
+    align-items: center;
+}
+
+.errorText {
+    color: red;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    margin: 0;
 }
 
 .mainCard {
