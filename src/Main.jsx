@@ -45,7 +45,7 @@ function Main() {
         </div>
       </header>
       <p className="errorText">{errorMessage}</p>
-    <section className="main" style={{ backgroundImage: `url(${MainBg})`, width:"100%"}}>
+    <section className="main" style={{ backgroundImage: `url(${MainBg}`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
       <div style={{height:"30px"}} />
       <div className="mainCard">
         <h1>
