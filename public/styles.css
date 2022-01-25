@@ -1,0 +1,367 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: "Roboto", sans-serif;
+}
+body {
+	background: rgb(0, 0, 0);
+	/* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+	padding: 0 16px;
+}
+
+h1 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 230, 0);
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+  
+h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+  
+h4 {
+    color: #579683;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    text-align: center;
+
+}
+
+h5{
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+h6{
+    font-family: "VT323", monospace;
+    color: white;
+    font-size: 5rem;
+    margin: 1rem -1rem;
+    text-align: left;
+}
+  
+p {
+    color: white;
+    margin: 1rem auto;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+ul{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    margin: auto;
+    width: 586px;
+}
+
+hr {
+    background-color: rgb(141, 141, 141);
+    color: rgb(141, 141, 141);
+    width: 200px;
+    align-self: center;
+    height: 2px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+	font-family: "VT323", monospace;
+	/* margin: auto -16px; */
+	padding: 16px 32px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    text-align: center;
+}
+
+header img {
+    height: 2rem;
+    margin: auto;
+}
+
+header h1 {
+	color: #fff;
+	font-family: "VT323", monospace;
+	font-weight: 200;
+    display: none;
+}
+
+header p {
+	color: #fff;
+	font-family: "VT323", monospace;
+    display: inline;
+    font-size: 1.3rem;
+    margin: auto 10px;
+}
+
+header div {
+    margin: auto;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+}
+
+footer {
+    bottom: 0px;
+	text-align: center;
+	width: 100%;
+	height: 3rem;
+    background-color: black;
+}
+
+footer p {
+    font-family: 'VT323', monospace;
+	color: #787878;
+    margin: auto;
+    font-size: 1.2rem;
+    position: relative;
+    top: 16px;
+}
+
+.ConnectWallet {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    font-weight: bold;
+    margin: auto 0 auto 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #579683;
+    color:white;
+    cursor: default;
+}
+
+.main {
+    margin: 0%;
+    background-color: black;
+    padding: 100px 40px 40px 40px;
+}
+
+.mainCard {
+    position: relative;
+    top:17%;
+    margin: auto;
+    width: 630px;
+    padding: 2rem 3rem;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.socialSet {
+    text-align: center;
+    margin: 30px 30px auto;
+}
+
+.socialIcon {
+    margin: 10px;
+    height: 32px;
+}
+
+.concept {
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+}
+
+img {
+    margin: auto;
+}
+
+span {
+    color: #579683;
+}
+
+.textBox {
+    width: 630px;
+    /* margin: 5px auto; */
+}
+
+.parallelStories {
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.copyrightFragmentation {
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.subCard{
+    position: relative;
+    top:17%;
+    margin: 20px auto;
+    width: 630px;
+    padding: 2rem 3rem;
+    border-radius: 18px;
+    background-color: rgba(48, 48, 48, 0.5);
+    text-align: center;
+}
+
+.ecoModel {
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 100px 40px 60px;
+}
+
+.adoption{
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.announcementCard{
+    margin: 80px auto;
+    width: 630px;
+    padding: 1.5rem 1.5rem;
+    border-radius: 18px;
+    background-color: rgba(48, 48, 48, 0.5);
+    text-align: center;
+}
+
+.about{
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 100px 40px 60px;
+}
+
+.roadmap{
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.roadmapCard{
+    position: relative;
+    top:17%;
+    margin: 20px auto;
+    width: 550px;
+    padding: 3rem 4rem;
+    border-radius: 18px;
+    background-color: rgba(48, 48, 48, 0.5);
+    text-align: center;
+}
+
+.roadmapUl{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    margin: auto;
+    width:400px;
+}
+
+.social{
+    margin: 0%;
+    background-color: black;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+/* .note {
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+	float: left;
+}
+.note h1 {
+	font-size: 1.1em;
+	margin-bottom: 6px;
+}
+.note p {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.note button {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	color: #f5ba13;
+	border: none;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	outline: none;
+}
+
+form.create-note {
+	position: relative;
+	width: 480px;
+	margin: 30px auto 20px auto;
+	background: #fff;
+	padding: 15px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+	width: 100%;
+	border: none;
+	padding: 4px;
+	outline: none;
+	font-size: 1.2em;
+	font-family: inherit;
+	resize: none;
+}
+form.create-note button {
+	position: absolute;
+	right: 18px;
+	bottom: -18px;
+	background: #f5ba13;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	outline: none;
+} */
