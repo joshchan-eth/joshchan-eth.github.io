@@ -11,7 +11,7 @@ html {
 body {
 	background: rgb(0, 0, 0);
 	/* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
-	padding: 0 16px;
+	/* padding: 0 16px; */
     width: 100%;
 }
 
@@ -83,7 +83,7 @@ ul{
     letter-spacing: normal;
     text-align: left;
     margin: auto;
-    width: 586px;
+    width: 30%;
 }
 
 hr {
