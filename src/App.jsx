@@ -34,7 +34,7 @@ function App() {
         <EconomicModel />
         <Adoption />
         <About />
-        {/* <Roadmap /> */}
+        <Roadmap />
         {/* <Social /> */}
         <Footer />
       </div>
