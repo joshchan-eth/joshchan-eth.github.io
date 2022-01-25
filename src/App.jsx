@@ -34,8 +34,8 @@ function App() {
         <EconomicModel />
         <Adoption />
         <About />
-        <Roadmap />
-        <Social />
+        {/* <Roadmap /> */}
+        {/* <Social /> */}
         <Footer />
       </div>
     </Router>
