@@ -35,13 +35,6 @@ function Main() {
       setDefaultAccount(newAccount);
   }
 
-  // function updateAccount(){
-  //     window.ethereum.request({method: "eth_requestAccounts"})
-  //     .then(result => {
-  //         setAccount(result[0]);
-  //     })
-  // }
-
   return (
     <div>
       <header>
@@ -53,6 +46,7 @@ function Main() {
       </header>
       <p className="errorText">{errorMessage}</p>
     <section className="main" style={{ backgroundImage: `url(${MainBg})`, width:"100%"}}>
+      <div style={{height:"30px"}} />
       <div className="mainCard">
         <h1>
           Write as you always do, <br/> and earn as you never before_
@@ -62,7 +56,7 @@ function Main() {
         </p>
         <button className="ConnectWallet" onClick={connectWalletHandler} > {connectButtonText} </button>
       </div>
-      <div style={{height:"170px"}}/>
+      <div style={{height:"100px"}}/>
       <SocialBundle />
     </section>
     </div>

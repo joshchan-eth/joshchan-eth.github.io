@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+// eslint-disable-next-line
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Main from "./Main.jsx";
@@ -35,7 +36,7 @@ function App() {
         <Adoption />
         <About />
         <Roadmap />
-        {/* <Social /> */}
+        <Social />
         <Footer />
       </div>
     </Router>

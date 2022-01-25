@@ -5,7 +5,7 @@ import SocialBundle from "./Social-Bundle.jsx";
 function Social(){
     return(
         <section className="social" style={{ backgroundImage: `url(${SocialBg})`, width:"100%"}}>
-            <h5 style={{fontSize:"2.5rem", width:"630px"}}>
+            <h5>
                 Stay Tuned on Our Telegram and Discord Group!
             </h5>
             <SocialBundle />

@@ -15,297 +15,593 @@ body {
     width: 100%;
 }
 
-h1 {
-    color: white;
-    font-size: 1.8rem;
-    margin: 1rem auto;
-    text-align: center;
+@media only screen and (min-width: 900px){
+    h1 {
+        color: white;
+        font-size: 1.8rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    h2 {
+        color: rgb(255, 230, 0);
+        font-size: 1rem;
+        margin: 0.5rem auto;
+        text-align: center;
+    }
+      
+    h3 {
+        color: white;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+      
+    h4 {
+        color: #579683;
+        font-size: 1.2rem;
+        margin: 1rem auto;
+        text-align: center;
+    
+    }
+    
+    h5{
+        color: white;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    h6{
+        font-family: "VT323", monospace;
+        color: white;
+        font-size: 5rem;
+        margin: 1rem -1rem;
+        text-align: left;
+    }
+      
+    p {
+        color: white;
+        margin: 1rem auto;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.52;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    
+    ul{
+        color: white;
+        font-family: Roboto, sans-serif;
+        font-size: 1.3rem;
+        line-height: 1.52;
+        text-align: left;
+        margin: auto;
+        width: 40%;
+    }
+    
+    hr {
+        background-color: rgb(141, 141, 141);
+        color: rgb(141, 141, 141);
+        width: 200px;
+        align-self: center;
+        height: 2px;
+        margin: auto;
+    }
+    
+    header {
+        background-color: black;
+        color: #fff;
+        font-family: "VT323", monospace;
+        /* margin: auto -16px; */
+        padding: 16px 32px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        display: flex;
+        text-align: center;
+    }
+    
+    header img {
+        height: 2rem;
+        margin: auto;
+    }
+    
+    header h1 {
+        color: #fff;
+        font-family: "VT323", monospace;
+        font-weight: 200;
+        display: none;
+    }
+    
+    header p {
+        color: #fff;
+        font-family: "VT323", monospace;
+        display: inline;
+        font-size: 1.3rem;
+        margin: auto 10px;
+    }
+    
+    header div {
+        margin: auto;
+        position: absolute;
+        top: 16px;
+        right: 32px;
+    }
+    
+    footer {
+        bottom: 0px;
+        text-align: center;
+        width: 100%;
+        height: 3rem;
+        background-color: black;
+    }
+    
+    footer p {
+        font-family: 'VT323', monospace;
+        color: #787878;
+        margin: auto;
+        font-size: 1.2rem;
+        position: relative;
+        top: 16px;
+    }
+    
+    .ConnectWallet {
+        font-family: "Roboto", sans-serif;
+        border: none;
+        font-weight: bold;
+        margin: auto 0 auto 0;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: #579683;
+        color:white;
+        cursor: default;
+    }
+    
+    .main {
+        margin: 0%;
+        background-color: black;
+        padding: 100px 40px 40px 40px;
+        align-items: center;
+    }
+    
+    .errorText {
+        color: red;
+        position: absolute;
+        top: 10%;
+        right: 40%;
+        margin: 0;
+    }
+    
+    .mainCard {
+        position: relative;
+        top:17%;
+        margin: 40px auto;
+        width: 55%;
+        padding: 20px 40px;
+        border-radius: 18px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    
+    .socialSet {
+        text-align: center;
+        margin: 30px 30px auto;
+    }
+    
+    .socialIcon {
+        margin: 10px;
+        height: 32px;
+    }
+    
+    .concept {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 40px 40px 40px;
+    }
+    
+    img {
+        margin: auto;
+    }
+    
+    span {
+        color: #579683;
+    }
+    
+    .textBox {
+        width: 55%;
+        /* margin: 5px auto; */
+    }
+    
+    .parallelStories {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 60px;
+    }
+    
+    .copyrightFragmentation {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 60px;
+    }
+    
+    .subCard{
+        position: relative;
+        top:17%;
+        margin: 20px auto;
+        width: 55%;
+        padding: 2rem 3rem;
+        border-radius: 18px;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+    }
+    
+    .ecoModel {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 100px 40px 60px;
+    }
+    
+    .adoption{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 60px;
+    }
+    
+    .announcementCard{
+        margin: 80px auto;
+        width: 60%;
+        padding: 1.5rem 1.5rem;
+        border-radius: 18px;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+    }
+    
+    .about{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 100px 40px 60px;
+    }
+    
+    .roadmap{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 60px;
+    }
+    
+    .roadmapCard{
+        position: relative;
+        top:17%;
+        margin: 20px auto;
+        width: 55%;
+        padding: 3rem 4rem;
+        border-radius: 18px;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+    }
+    
+    .roadmapUl{
+        color: white;
+        font-family: Roboto, sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.52;
+        letter-spacing: normal;
+        text-align: left;
+        margin: auto;
+        width:400px;
+    }
+    
+    .social{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 60px;
+    }
 }
 
-h2 {
-    color: rgb(255, 230, 0);
-    font-size: 1rem;
-    margin: 0.5rem auto;
-    text-align: center;
-}
-  
-h3 {
-    color: white;
-    font-size: 1.5rem;
-    margin: 1rem auto;
-    text-align: center;
-}
-  
-h4 {
-    color: #579683;
-    font-size: 1.2rem;
-    margin: 1rem auto;
-    text-align: center;
+/* Border */
 
-}
+@media only screen and (max-width: 900px){
 
-h5{
-    color: white;
-    font-size: 1.5rem;
-    margin: 1rem auto;
-    text-align: center;
-}
+    h1 {
+        color: white;
+        font-size: 1.4rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    h2 {
+        color: rgb(255, 230, 0);
+        font-size: 0.8rem;
+        margin: 0.5rem auto;
+        text-align: center;
+    }
+      
+    h3 {
+        color: white;
+        font-size: 1.2rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+      
+    h4 {
+        color: #579683;
+        font-size: 1rem;
+        margin: 1rem auto;
+        text-align: center;
+    
+    }
+    
+    h5{
+        color: white;
+        font-size: 1.3rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    h6{
+        font-family: "VT323", monospace;
+        color: white;
+        font-size: 2rem;
+        margin: 0.3rem -0.3rem;
+        text-align: center;
+    }
+      
+    p {
+        color: white;
+        margin: 0.3rem auto;
+        font-family: Roboto;
+        font-size: 0.3rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.52;
+        letter-spacing: normal;
+        text-align: center;
+    }
 
-h6{
-    font-family: "VT323", monospace;
-    color: white;
-    font-size: 5rem;
-    margin: 1rem -1rem;
-    text-align: left;
-}
-  
-p {
-    color: white;
-    margin: 1rem auto;
-    font-family: Roboto;
-    font-size: 1rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.52;
-    letter-spacing: normal;
-    text-align: center;
-}
-
-ul{
-    color: white;
-    font-family: Roboto, sans-serif;
-    font-size: 1rem;
-    line-height: 1.52;
-    text-align: left;
-    margin: auto;
-    width: 20%;
-}
-
-hr {
-    background-color: rgb(141, 141, 141);
-    color: rgb(141, 141, 141);
-    width: 200px;
-    align-self: center;
-    height: 2px;
-    margin: auto;
-}
-
-header {
-    background-color: black;
-    color: #fff;
-	font-family: "VT323", monospace;
-	/* margin: auto -16px; */
-	padding: 16px 32px;
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    display: flex;
-    text-align: center;
-}
-
-header img {
-    height: 2rem;
-    margin: auto;
-}
-
-header h1 {
-	color: #fff;
-	font-family: "VT323", monospace;
-	font-weight: 200;
-    display: none;
-}
-
-header p {
-	color: #fff;
-	font-family: "VT323", monospace;
-    display: inline;
-    font-size: 1.3rem;
-    margin: auto 10px;
-}
-
-header div {
-    margin: auto;
-    position: absolute;
-    top: 16px;
-    right: 32px;
-}
-
-footer {
-    bottom: 0px;
-	text-align: center;
-	width: 100%;
-	height: 3rem;
-    background-color: black;
-}
-
-footer p {
-    font-family: 'VT323', monospace;
-	color: #787878;
-    margin: auto;
-    font-size: 1.2rem;
-    position: relative;
-    top: 16px;
-}
-
-.ConnectWallet {
-    font-family: "Roboto", sans-serif;
-    border: none;
-    font-weight: bold;
-    margin: auto 0 auto 0;
-    padding: 10px 20px;
-    border-radius: 8px;
-    background-color: #579683;
-    color:white;
-    cursor: default;
-}
-
-.main {
-    margin: 0%;
-    background-color: black;
-    padding: 100px 40px 40px 40px;
-    align-items: center;
-}
-
-.errorText {
-    color: red;
-    position: absolute;
-    top: 10%;
-    right: 40%;
-    margin: 0;
-}
-
-.mainCard {
-    position: relative;
-    top:17%;
-    margin: auto;
-    width: 45%;
-    padding: 2rem 3rem;
-    border-radius: 18px;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.socialSet {
-    text-align: center;
-    margin: 30px 30px auto;
-}
-
-.socialIcon {
-    margin: 10px;
-    height: 32px;
-}
-
-.concept {
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 40px 40px 40px 40px;
-}
-
-img {
-    margin: auto;
-}
-
-span {
-    color: #579683;
-}
-
-.textBox {
-    width: 45%;
-    /* margin: 5px auto; */
-}
-
-.parallelStories {
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 40px 60px;
-}
-
-.copyrightFragmentation {
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 40px 60px;
-}
-
-.subCard{
-    position: relative;
-    top:17%;
-    margin: 20px auto;
-    width: 45%;
-    padding: 2rem 3rem;
-    border-radius: 18px;
-    background-color: rgba(48, 48, 48, 0.5);
-    text-align: center;
-}
-
-.ecoModel {
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 100px 40px 60px;
-}
-
-.adoption{
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 40px 60px;
-}
-
-.announcementCard{
-    margin: 80px auto;
-    width: 45%;
-    padding: 1.5rem 1.5rem;
-    border-radius: 18px;
-    background-color: rgba(48, 48, 48, 0.5);
-    text-align: center;
-}
-
-.about{
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 100px 40px 60px;
-}
-
-.roadmap{
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 40px 60px;
-}
-
-.roadmapCard{
-    position: relative;
-    top:17%;
-    margin: 20px auto;
-    width: 45%;
-    padding: 3rem 4rem;
-    border-radius: 18px;
-    background-color: rgba(48, 48, 48, 0.5);
-    text-align: center;
-}
-
-.roadmapUl{
-    color: white;
-    font-family: Roboto, sans-serif;
-    font-size: 1rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.52;
-    letter-spacing: normal;
-    text-align: left;
-    margin: auto;
-    width:400px;
-}
-
-.social{
-    margin: 0%;
-    background-color: black;
-    text-align: center;
-    padding: 40px 60px;
+    ul{
+        color: white;
+        font-family: Roboto, sans-serif;
+        font-size: 100%;
+        line-height: 1.52;
+        text-align: left;
+        margin: auto;
+        width: 40%;
+    }
+    
+    hr {
+        background-color: rgb(141, 141, 141);
+        color: rgb(141, 141, 141);
+        width: 200px;
+        align-self: center;
+        height: 2px;
+        margin: auto;
+    }
+    
+    header {
+        background-color: black;
+        color: #fff;
+        font-family: "VT323", monospace;
+        /* margin: auto -16px; */
+        padding: 0.8rem 1rem;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+        display: flex;
+        text-align: center;
+    }
+    
+    header img {
+        height: 2rem;
+        margin: auto;
+    }
+    
+    header h1 {
+        color: #fff;
+        font-family: "VT323", monospace;
+        font-weight: 200;
+        display: none;
+    }
+    
+    header p {
+        color: #fff;
+        font-family: "VT323", monospace;
+        display: inline;
+        font-size: 1.3rem;
+        margin: auto 10px;
+    }
+    
+    header div {
+        margin: auto;
+        position: absolute;
+        top: 16px;
+        right: 32px;
+    }
+    
+    footer {
+        bottom: 0px;
+        text-align: center;
+        width: 100%;
+        height: 3rem;
+        background-color: black;
+    }
+    
+    footer p {
+        font-family: 'VT323', monospace;
+        color: #787878;
+        margin: 5%;
+        font-size: 100%;
+        position: relative;
+        top: 16px;
+    }
+    
+    .ConnectWallet {
+        font-family: "Roboto", sans-serif;
+        border: none;
+        font-weight: bold;
+        margin: auto 0 auto 0;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: #579683;
+        color:white;
+        cursor: default;
+    }
+    
+    .main {
+        margin: 0%;
+        background-color: black;
+        padding: 6%;
+        align-items: center;
+    }
+    
+    .errorText {
+        color: red;
+        position: absolute;
+        top: 10%;
+        right: 40%;
+        margin: 0;
+    }
+    
+    .mainCard {
+        position: relative;
+        top:17%;
+        margin: auto;
+        width: 84%;
+        padding: 3% 0.5rem;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    
+    .socialSet {
+        text-align: center;
+        margin: 30px 30px auto;
+    }
+    
+    .socialIcon {
+        margin: 10px;
+        height: 32px;
+    }
+    
+    .concept {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    img {
+        margin: auto;
+    }
+    
+    span {
+        color: #579683;
+    }
+    
+    .textBox {
+        width: 76%;
+        /* margin: 5px auto; */
+    }
+    
+    .parallelStories {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    .copyrightFragmentation {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    .subCard{
+        position: relative;
+        top:17%;
+        margin: 10px auto;
+        width: 76%;
+        padding: 0.5rem 0.5rem;
+        border-radius: 18px;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+    }
+    
+    .ecoModel {
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    .adoption{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    .announcementCard{
+        margin: 5% auto;
+        width: 76%;
+        padding: 1rem 1rem;
+        border-radius: 18px;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+    }
+    
+    .about{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    .roadmap{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
+    
+    .roadmapCard{
+        position: relative;
+        top:17%;
+        margin: auto;
+        width: 80%;
+        padding: 1rem 1rem;
+        border-radius: 18px;
+        background-color: rgba(48, 48, 48, 0.5);
+        text-align: center;
+    }
+    
+    .roadmapUl{
+        color: white;
+        font-family: Roboto, sans-serif;
+        font-size: 0.8remrem;
+        line-height: 1.52;
+        text-align: left;
+        margin: auto;
+        width:80%;
+    }
+    
+    .social{
+        margin: 0%;
+        background-color: black;
+        text-align: center;
+        padding: 6%;
+    }
 }
 
 /* .note {
