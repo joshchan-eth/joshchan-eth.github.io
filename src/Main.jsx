@@ -52,7 +52,7 @@ function Main() {
           Write as you always do, <br/> and earn as you never before_
         </h1>
         <p>
-          The Very First Write-to-Earn System with Web3.
+          The Very First <span style={{fontWeight:"bold", color:"rgb(255, 230, 0)"}}>Write-to-Earn</span> System with Web3.
         </p>
         <button className="ConnectWallet" onClick={connectWalletHandler} > {connectButtonText} </button>
       </div>

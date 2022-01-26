@@ -4,7 +4,7 @@ import RoadmapBg from "./img/roadmap-bg.png";
 
 function Roadmap(){
     return(
-        <section className="roadmap" style={{ backgroundImage: `url(${RoadmapBg})`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
+        <section className="roadmap" style={{ backgroundImage: `url(${RoadmapBg})`, backgroundPosition:`bottom`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
             <InfoSet 
                 sectionName={"Roadmap"} 
                 title={"We are Building A Door for the Writers to Join the World of the Metaverse_" }

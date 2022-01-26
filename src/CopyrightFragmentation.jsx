@@ -6,7 +6,7 @@ import CopyrightFragImg from "./img/ownership-frangmentation.png";
 
 function CopyrightFragmentation() {
     return(
-        <section className="copyrightFragmentation" style={{ backgroundImage: `url(${CopyrightFragImg})`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
+        <section className="copyrightFragmentation" style={{ backgroundImage: `url(${CopyrightFragImg})`, backgroundPosition:`bottom`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
             <InfoSet 
                 sectionName={"Copyright Powered by Smart Contract"} 
                 title={"Smart Contract Technology Arouses the Possibility of the Copyright Fragmentation_" }

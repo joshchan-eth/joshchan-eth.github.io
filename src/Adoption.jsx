@@ -4,7 +4,7 @@ import AdoptionBG from "./img/benefits.png"
 
 function Adoption(){
     return(
-        <section className="adoption" style={{ backgroundImage: `url(${AdoptionBG})`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
+        <section className="adoption" style={{ backgroundImage: `url(${AdoptionBG})`, backgroundSize:`100%`, backgroundPosition:`bottom`, backgroundRepeat:`no-repeat`}}>
             <InfoSet 
             sectionName={"Adopt a CosmoCitizenz to Join the Community"} 
             title={"Here are CosmoCitizenz’ owner benefits_" }
