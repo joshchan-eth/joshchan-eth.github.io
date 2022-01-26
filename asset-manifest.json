@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84201dcc.chunk.css",
+    "main.js": "/static/js/main.d1e30997.chunk.js",
+    "main.js.map": "/static/js/main.d1e30997.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.0413ad64.js",
+    "runtime~main.js.map": "/static/js/runtime~main.0413ad64.js.map",
+    "static/js/2.8fbc2a95.chunk.js": "/static/js/2.8fbc2a95.chunk.js",
+    "static/js/2.8fbc2a95.chunk.js.map": "/static/js/2.8fbc2a95.chunk.js.map",
+    "static/js/3.b7dfee96.chunk.js": "/static/js/3.b7dfee96.chunk.js",
+    "static/js/3.b7dfee96.chunk.js.map": "/static/js/3.b7dfee96.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d333cc829ec825e89941fad49c8ce1bd.js": "/precache-manifest.d333cc829ec825e89941fad49c8ce1bd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.84201dcc.chunk.css.map": "/static/css/main.84201dcc.chunk.css.map",
+    "static/media/Logo.png": "/static/media/Logo.aa715679.png",
+    "static/media/about.png": "/static/media/about.354edcff.png",
+    "static/media/benefits.png": "/static/media/benefits.c0606eb0.png",
+    "static/media/derivative-products.png": "/static/media/derivative-products.21ba7857.png",
+    "static/media/main-bg.png": "/static/media/main-bg.4cc317ec.png",
+    "static/media/ownership-frangmentation.png": "/static/media/ownership-frangmentation.547d7ab1.png",
+    "static/media/parallel-stories.png": "/static/media/parallel-stories.66eebf73.png",
+    "static/media/roadmap-bg.png": "/static/media/roadmap-bg.4ea9cd4a.png",
+    "static/media/social-media-bg.png": "/static/media/social-media-bg.f3177398.png",
+    "static/media/tree-structured-story.png": "/static/media/tree-structured-story.4b4b3b8b.png",
+    "static/media/write-more-earn-more.png": "/static/media/write-more-earn-more.4f80885c.png"
+  }
+}
