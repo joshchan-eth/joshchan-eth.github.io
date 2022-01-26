@@ -417,15 +417,19 @@ body {
         color: #fff;
         font-family: "VT323", monospace;
         display: inline;
-        font-size: 1.3rem;
+        font-size: 0.3rem;
         margin: auto 10px;
     }
     
     header div {
         margin: auto;
-        position: absolute;
+        position: inline;
         top: 16px;
         right: 32px;
+    }
+
+    header button {
+        display: none;
     }
     
     footer {
