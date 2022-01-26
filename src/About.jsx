@@ -11,7 +11,7 @@ function About() {
                 content={""}
                 imgLink={require("./img/about.png")}
                 imgAlt={"about starnest"}
-                picWidth={"100%"}
+                picWidth={"60%"}
             />
             <p className="textBox">
             Tens of thousand of writers are creating stories everyday. However, few of them having time and abilities to finish these masterpieces. Most of them are not been seen by the public, let alone published as physical books, or used to make animations, movies or drawings.<br/>

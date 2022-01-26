@@ -16,7 +16,7 @@ function InfoSet(props) {
             <p className="textBox">
                 {props.content}
             </p>
-            <img src={props.imgLink} alt={props.imgAlt} width={props.picWidth} style={{width:"80%"}} />
+            <img src={props.imgLink} alt={props.imgAlt} style={{width:props.picWidth}} />
         </div>
     );
 }

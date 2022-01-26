@@ -25,6 +25,7 @@ function Adoption(){
                     More Information Will Be Released Soon_
                 </h5>
             </div>
+            <div style={{height:"30px"}} />
             
         </section>
     );

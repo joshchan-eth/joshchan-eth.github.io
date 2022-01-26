@@ -21,7 +21,7 @@ function EconomicModel() {
                 content={"Our unique profit sharing model will allow copyright owners to earn from the following writers of the stories. And this profit sharing will extended to lower two classes, which means the profit will grow expotentially. If you are not a writer, you can also purchase others copyrights from the open market to receive the revenue."}
                 imgLink={require("./img/write-more-earn-more.png")}
                 imgAlt={"write more to earn more"}
-                picWidth={"60%"}
+                picWidth={"40%"}
             />
         </section>
     );
