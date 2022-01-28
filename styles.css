@@ -171,11 +171,11 @@ body {
     }
     
     .errorText {
-        color: red;
+        font-family: "Roboto", sans-serif;
+        color: rgb(255, 122, 122);
         position: absolute;
         top: 10%;
-        right: 40%;
-        margin: 0;
+        margin: auto;
     }
     
     .mainCard {
@@ -382,7 +382,11 @@ body {
         line-height: 1.52;
         text-align: left;
         margin: auto;
-        width: 40%;
+        width: 100%;
+    }
+
+    li{
+        margin: 0;
     }
     
     hr {
@@ -477,19 +481,19 @@ body {
     }
     
     .errorText {
-        color: red;
+        font-family: "Roboto", sans-serif;
+        color: rgb(255, 122, 122);
         position: absolute;
         top: 10%;
-        right: 40%;
-        margin: 0;
+        margin: auto;
     }
     
     .mainCard {
         position: relative;
         top:17%;
         margin: auto;
-        width: 86%;
-        padding: 3% 0.5rem;
+        width: 100%;
+        padding: 1% 0.5rem;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.5);
         text-align: center;
@@ -521,7 +525,7 @@ body {
     }
     
     .textBox {
-        width: 76%;
+        width: 94%;
         /* margin: 5px auto; */
     }
     
