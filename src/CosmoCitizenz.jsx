@@ -12,7 +12,7 @@ function Adoption(){
             <ul style={{color:"#579683", width:"50%", fontSize:"100%"}}>
                 <div style={{height:"30px"}} />
                 <li>Getting airdropped of free Manuscripts.</li>
-                <li>Stacking to share 20% of the net profit of the vault.</li>
+                <li>Staking to share 20% of the net profit of the vault.</li>
                 <li>Joining an exclusive writers community.</li>
             </ul>
             }
