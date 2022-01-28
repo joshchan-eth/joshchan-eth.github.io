@@ -6,7 +6,11 @@ function EconomicModel() {
         <section className="ecoModel">
             <InfoSet 
                 sectionName={"We Make it Easier to Monetize Your Works"} 
-                title={"Earn the License Fee of the Whole Story_" }
+                title={
+                <div>
+                    Earn the <span>License Fee</span> of the Whole Story_
+                </div> 
+                }
                 subtitle={""}
                 content={"When being one of the story owners, people also own the rights to the story. This means that when a story generates any revenue, including licensing, publishing, etc., people can get a share of it. The DAO(Decentralized autonomous organization) will handle the licensing and publishing collaborations on behalf of all story owners, so the only thing writers need to do is focusing more on writing great stories."}
                 imgLink={require("./img/derivative-products.png")}
@@ -16,7 +20,11 @@ function EconomicModel() {
             <div style={{height:"20px"}}/>
             <InfoSet 
                 sectionName={""} 
-                title={"Earn When Your Stories Continued by Other Writers_" }
+                title={
+                <div>
+                    Earn When Your Stories <span>Continued by Other Writers</span>_
+                </div> 
+                }
                 subtitle={""}
                 content={"Our unique profit sharing model will allow copyright owners to earn directly from the following writers. And this profit sharing will extended to all the lower classes, which means the profit will grow expotentially. If you are not a writer, you can also purchase others copyrights from the open market to receive the revenue."}
                 imgLink={require("./img/write-more-earn-more.png")}
@@ -26,7 +34,11 @@ function EconomicModel() {
             <div style={{height:"20px"}}/>
             <InfoSet 
                 sectionName={""} 
-                title={"Earn from Trading the Copyrights_" }
+                title={
+                <div>
+                    Earn from <span>Trading the Copyrights</span>_
+                </div> 
+                }
                 subtitle={""}
                 content={"Since the copyrights have become the provable digital assets, owners can trade them easier than ever."}
                 imgLink={require("./img/earn-from-trading.png")}
@@ -36,7 +48,11 @@ function EconomicModel() {
             <div style={{height:"20px"}}/>
             <InfoSet 
                 sectionName={""} 
-                title={"Earn from the Readers_" }
+                title={
+                <div>
+                    Earn from <span>the Readers</span>_
+                </div>
+                    }
                 subtitle={""}
                 content={"The platfrom will charge our readers for the subscription reading fees. These fees will be stored into a vault belongs to the story tree, and will be transfered to all the co-authors of the story."}
                 imgLink={require("./img/earn-from-the-readers.png")}

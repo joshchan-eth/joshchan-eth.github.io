@@ -7,7 +7,11 @@ function Roadmap(){
         <section className="roadmap" style={{ backgroundImage: `url(${RoadmapBg})`, backgroundPosition:`bottom`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
             <InfoSet 
                 sectionName={"Roadmap"} 
-                title={"We are Building A Door for the Writers to Join the Era of Web3_" }
+                title={
+                <div>
+                    We Are Building A Door for the Writers to <span>Join the Era of Web3</span>_
+                </div> 
+                }
             />
             <div className="roadmapCard">
                 <h6>

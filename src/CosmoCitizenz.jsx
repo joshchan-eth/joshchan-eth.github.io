@@ -9,7 +9,8 @@ function Adoption(){
             sectionName={"CosmoCitizenz - The Origin Citizens of STARNEST"} 
             title={"Being a CosmoCitizenz Enjoys the Following Benefits_" }
             subtitle={
-            <ul style={{color:"#579683", width:"60%", fontSize:"100%"}}>
+            <ul style={{color:"#579683", width:"50%", fontSize:"100%"}}>
+                <div style={{height:"30px"}} />
                 <li>Getting airdropped of free Manuscripts.</li>
                 <li>Stacking to share 20% of the net profit of the vault.</li>
                 <li>Joining an exclusive writers community.</li>

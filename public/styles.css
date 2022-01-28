@@ -64,7 +64,7 @@ body {
         color: white;
         margin: 1rem auto;
         font-family: Roboto;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
@@ -80,7 +80,7 @@ body {
         line-height: 1.52;
         text-align: left;
         margin: auto;
-        width: 40%;
+        width: 100%;
     }
     
     hr {

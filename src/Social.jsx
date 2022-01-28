@@ -6,7 +6,7 @@ function Social(){
     return(
         <section className="social" style={{ backgroundImage: `url(${SocialBg})`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
             <h5>
-                Stay Tuned on Our Telegram and Discord Group!
+                Stay Tuned by Following Our Twitter!
             </h5>
             <SocialBundle />
         </section>
