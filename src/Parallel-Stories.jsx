@@ -5,9 +5,9 @@ function ParallelStories() {
     return(
         <section className="parallelStories">
             <InfoSet 
-            sectionName={"Same World, Different Stories"} 
-            title={"Unleash people's adventurous spirit_" }
-            content={"Readers can start exploring from any branch at anytime, anywhere in this meatverse. All branches are parallel worlds and will never go to the end."}
+            sectionName={"Multi-dimension Story Infrastructure"} 
+            title={"Unleash people's adventurous spirits_" }
+            content={"Readers can start exploring from any branch of the stories. All branches are parallel worlds and bringing different experiences to the readers."}
             imgLink={require("./img/parallel-stories.png")}
             imgAlt={"Parallel Stories"}
             picWidth={"70%"}

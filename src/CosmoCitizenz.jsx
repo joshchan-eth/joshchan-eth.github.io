@@ -4,15 +4,15 @@ import AdoptionBG from "./img/benefits.png"
 
 function Adoption(){
     return(
-        <section className="adoption" style={{ backgroundImage: `url(${AdoptionBG})`, backgroundSize:`100%`, backgroundPosition:`bottom`, backgroundRepeat:`no-repeat`}}>
+        <section className="cosmocitizenz" style={{ backgroundImage: `url(${AdoptionBG})`, backgroundSize:`100%`, backgroundPosition:`bottom`, backgroundRepeat:`no-repeat`}}>
             <InfoSet 
-            sectionName={"Adopt a CosmoCitizenz to Join the Community"} 
-            title={"Here are CosmoCitizenz’ owner benefits_" }
+            sectionName={"CosmoCitizenz - The Origin Citizens of STARNEST"} 
+            title={"Being a CosmoCitizenz Enjoys the Following Benefits_" }
             subtitle={
             <ul style={{color:"#579683", width:"60%", fontSize:"100%"}}>
-                <li>Will airdrop free Manuscripts to the CosmoCitizenz’ owners.</li>
+                <li>Getting airdropped of free Manuscripts.</li>
                 <li>Stacking to share 20% of the net profit of the vault.</li>
-                <li>Can vote for the new root stories.</li>
+                <li>Joining an exclusive writers community.</li>
             </ul>
             }
             content={""}

@@ -8,8 +8,8 @@ function CopyrightFragmentation() {
     return(
         <section className="copyrightFragmentation" style={{ backgroundImage: `url(${CopyrightFragImg})`, backgroundPosition:`top`, backgroundSize:`100%`, backgroundRepeat:`no-repeat`}}>
             <InfoSet 
-                sectionName={"Copyright Powered by Smart Contract"} 
-                title={"Smart Contract Technology Arouses the Possibility of the Copyright Fragmentation_" }
+                sectionName={"Powered by Smart Contract"} 
+                title={"Smart Contract Technology Makes the Copyright Become More Flexible_" }
                 subtitle={""}
                 content={""}
                 imgLink={""}
@@ -17,12 +17,12 @@ function CopyrightFragmentation() {
                 picWidth={""}
             />
             <DesCard
-                title={"The Most Reliable Profit Sharing of Ownership Split"}
-                content={"Smart Contract technology solves the problem of the profit sharing of any co-owned copyright. It makes multi-ownership of copyright become more reliable than ever."}
+                title={"Profit Sharing for Multi-authors Becomes Reliable "}
+                content={"Smart Contract technology solves the problem of the profit sharing of any co-owned copyright. Every penny will be splited fairly than ever."}
             />
             <DesCard
-                title={"Exponentially Growth of the Market Liquidity"}
-                content={"The barrier of trading copyrights is always extremely high. Minted Copyrights (NFTs) will empower the owners directly buy and sell their copyrights through any NFT open market."}
+                title={"Exponentially Growth of the Copyright's Market Liquidity"}
+                content={"The barrier of trading copyrights is always extremely high. However, turning the copyrights into NFTs will empower them be directly bought and sold online."}
             />
         </section>
     );

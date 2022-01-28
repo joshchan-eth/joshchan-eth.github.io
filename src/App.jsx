@@ -8,7 +8,7 @@ import Concept from "./Concept.jsx";
 import ParallelStories from "./Parallel-Stories.jsx";
 import CopyrightFragmentation from "./CopyrightFragmentation.jsx";
 import EconomicModel from "./EconomicModel.jsx";
-import Adoption from "./Adoption.jsx";
+import CosmoCitizenz from "./CosmoCitizenz.jsx";
 import About from "./About.jsx";
 import Roadmap from "./Roadmap.jsx";
 import Social from "./Social.jsx";
@@ -33,7 +33,7 @@ function App() {
         <ParallelStories />
         <CopyrightFragmentation />
         <EconomicModel />
-        <Adoption />
+        <CosmoCitizenz />
         <About />
         <Roadmap />
         <Social />

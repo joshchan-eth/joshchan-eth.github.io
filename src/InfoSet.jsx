@@ -13,7 +13,7 @@ function InfoSet(props) {
             <h4>
                 {props.subtitle}
             </h4>
-            <p className="textBox">
+            <p className="textBox" style={{color:"#a7a7a7"}}>
                 {props.content}
             </p>
             <img src={props.imgLink} alt={props.imgAlt} style={{width:props.picWidth}} />
