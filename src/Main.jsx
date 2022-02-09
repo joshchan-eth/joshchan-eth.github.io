@@ -49,7 +49,7 @@ function Main() {
       <div style={{height:"30px"}} />
       <div className="mainCard">
         <h1>
-          Write as you always do, <br/> and earn as you never before_
+          Write as you always have; <br/> Earn as you never did before_
         </h1>
         <p>
           The Very First <span style={{fontWeight:"bold", color:"rgb(255, 230, 0)"}}>Write-to-Earn</span> System with Web3.

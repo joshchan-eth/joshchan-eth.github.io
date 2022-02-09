@@ -5,14 +5,14 @@ function EconomicModel() {
     return(
         <section className="ecoModel">
             <InfoSet 
-                sectionName={"We Make it Easier to Monetize Your Works"} 
+                sectionName={"Easily Monetize Your Work"} 
                 title={
                 <div>
-                    Earn the <span>License Fee</span> of the Whole Story_
+                    Earn Money from <span>Licensing Your Stories </span>_
                 </div> 
                 }
                 subtitle={""}
-                content={"When being one of the story owners, people also own the rights to the story. This means that when a story generates any revenue, including licensing, publishing, etc., people can get a share of it. The DAO(Decentralized autonomous organization) will handle the licensing and publishing collaborations on behalf of all story owners, so the only thing writers need to do is focusing more on writing great stories."}
+                content={"Being one of the story owners, people also own the rights to the story. This means when a story generates any revenue, including licensing, publishing, etc., people can get a share of the profit. The DAO(Decentralized autonomous organization) will handle the licensing and publishing on behalf of all story owners, so the only thing writers need to do is focusing more on writing great stories."}
                 imgLink={require("./img/derivative-products.png")}
                 imgAlt={"derivative products"}
                 picWidth={"70%"}
@@ -40,7 +40,7 @@ function EconomicModel() {
                 </div> 
                 }
                 subtitle={""}
-                content={"Since the copyrights have become the provable digital assets, owners can trade them easier than ever."}
+                content={"Copyrights as provable digital assets can be traded significantly easilier than ever."}
                 imgLink={require("./img/earn-from-trading.png")}
                 imgAlt={"earn-from-trading"}
                 picWidth={"60%"}
@@ -54,7 +54,7 @@ function EconomicModel() {
                 </div>
                     }
                 subtitle={""}
-                content={"The platfrom will charge our readers for the subscription reading fees. These fees will be stored into a vault belongs to the story tree, and will be transfered to all the co-authors of the story."}
+                content={"The Starnest platform is subscription base, so there will be a monthly fee. The fees will be stored into a vault that belongs to the story tree, and will be transferred to all the co-authors of the story, also on a monthly basis."}
                 imgLink={require("./img/earn-from-the-readers.png")}
                 imgAlt={"earn-from-the-readers"}
                 picWidth={"60%"}

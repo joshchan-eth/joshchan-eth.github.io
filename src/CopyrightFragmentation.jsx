@@ -17,12 +17,12 @@ function CopyrightFragmentation() {
                 picWidth={""}
             />
             <DesCard
-                title={"Profit Sharing for Multi-authors Becomes Reliable "}
-                content={"Smart Contract technology solves the problem of the profit sharing of any co-owned copyright. Every penny will be splited fairly than ever."}
+                title={"Reliable Profit Sharing for Multiple Authors"}
+                content={"Smart Contract technology solves the problem of profit sharing for co-owned copyright content. Every penny will be splitted fair and square."}
             />
             <DesCard
-                title={"Exponentially Growth of the Copyright's Market Liquidity"}
-                content={"The barrier of trading copyrights is always extremely high. However, turning the copyrights into NFTs will empower them be directly bought and sold online."}
+                title={"Exponential Growth of the Copyright's Market Liquidity"}
+                content={"The barrier of trading copyrights is always extremely high. However, turning the copyrights into NFTs will empower them be directly bought and sold online. Turning copyrights into NFTs bypasses all difficulties and barriers created by the copyright itself. Thus, allowing trading for copyrights to happen directly online."}
             />
         </section>
     );

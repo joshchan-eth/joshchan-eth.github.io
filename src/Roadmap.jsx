@@ -35,7 +35,7 @@ function Roadmap(){
                 </h6>
                 <ul className="roadmapUl">
                     <li>Adding the selection algorithm to the story web. </li>
-                    <li>Publish the first multiple-dimension book in the metaverse.</li>
+                    <li>Publish the first multi-dimension book in the metaverse.</li>
                     <li>Reveal the second wave of the characters.</li>
                 </ul>
                 <h6>
